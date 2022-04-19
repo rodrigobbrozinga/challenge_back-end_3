@@ -23,14 +23,19 @@ namespace Challenge_Back_End_3.Controllers
         {
             if (myFile != null)
             {
-                var path = Path.Combine(wwwrootDirectory, myFile.FileName
-                    + Path.GetExtension(myFile.FileName));
+                var path = Path.Combine(wwwrootDirectory, myFile.FileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
                     await myFile.CopyToAsync(stream);
                 }
-                Console.WriteLine("Nome do arquivo: " + myFile.FileName + " Tamanho do arquivo: " + myFile.Length/1024/1024 + "MB");              
+                Console.WriteLine("Nome do arquivo: " + myFile.FileName + " Tamanho do arquivo: " + myFile.Length/1024/1024 + "MB");
+
+                var reader = new StreamReader(path);
+                while (!reader.EndOfStream)
+                {
+                    Console.WriteLine(reader.ReadLine());
+                }
             }
 
             return View();
