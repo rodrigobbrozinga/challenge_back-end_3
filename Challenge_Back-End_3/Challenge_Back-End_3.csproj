@@ -5,4 +5,9 @@
     <RootNamespace>Challenge_Back_End_3</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\HomeController1.cs" />
+    <Compile Remove="Controllers\HomeController2.cs" />
+  </ItemGroup>
+
 </Project>

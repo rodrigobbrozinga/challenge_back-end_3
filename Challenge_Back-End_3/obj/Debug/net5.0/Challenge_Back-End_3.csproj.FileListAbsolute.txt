@@ -38,3 +38,5 @@ C:\Users\bots_\Documents\Cursos .NET\Challenge Back-End 3\Challenge_Back-End_3\C
 C:\Users\bots_\Documents\Cursos .NET\Challenge Back-End 3\Challenge_Back-End_3\Challenge_Back-End_3\obj\Debug\net5.0\Challenge_Back-End_3.pdb
 C:\Users\bots_\Documents\Cursos .NET\Challenge Back-End 3\Challenge_Back-End_3\Challenge_Back-End_3\obj\Debug\net5.0\Challenge_Back-End_3.genruntimeconfig.cache
 C:\Users\bots_\Documents\Cursos .NET\Challenge Back-End 3\Challenge_Back-End_3\Challenge_Back-End_3\obj\Debug\net5.0\Challenge_Back-End_3.csproj.CopyComplete
+C:\Users\bots_\Documents\Cursos .NET\Challenge Back-End 3\Challenge_Back-End_3\Challenge_Back-End_3\obj\Debug\net5.0\Razor\Views\Upload\UploadFile.cshtml.g.cs
+C:\Users\bots_\Documents\Cursos .NET\Challenge Back-End 3\Challenge_Back-End_3\Challenge_Back-End_3\obj\Debug\net5.0\Razor\Views\Upload\Index.cshtml.g.cs
